@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>SaniTank | Limpieza de fosas sépticas y saneamiento</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar section-content">
+      <a href="#home" class="nav-logo" aria-label="Ir al inicio">
+        <span class="logo-mark"><i class="fa-solid fa-droplet"></i></span>
+        <span class="logo-wrap">
+          <span class="logo-text">SaniTank</span>
+          <span class="logo-sub" data-i18n="brand.tagline">Saneamiento • Succión • Mantenimiento</span>
+        </span>
+      </a>
+
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times" aria-label="Cerrar menú"></button>
+
+        <li class="nav-item"><a href="#home" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav.about">Nosotros</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+        <li class="nav-item"><a href="#extras" class="nav-link" data-i18n="nav.extras">Extras</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link" data-i18n="nav.gallery">Trabajos</a></li>
+        <li class="nav-item"><a href="#contactus" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+
+      <div class="lang-switcher">
+        <button type="button" data-lang-button="esp">ESP</button>
+        <button type="button" data-lang-button="eng">ENG</button>
+      </div>
+
+      <button id="menu-open-button" class="fas fa-bars" aria-label="Abrir menú"></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-bubbles">
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="section-content hero-grid">
+        <div class="hero-details reveal">
+          <p class="badge">
+            <i class="fa-solid fa-shield-heart"></i>
+            <span data-i18n="hero.badge">Servicio sanitario profesional • Limpio • Seguro</span>
+          </p>
+
+          <h1 class="title" data-i18n="hero.title">Limpieza y mantenimiento de sistemas sépticos</h1>
+          <h2 class="subtitle" data-i18n="hero.subtitle">Soluciones premium para fosas, tanques, pozos de absorción y trampas de grasa.</h2>
+
+          <p class="description" data-i18n="hero.description">
+            En SaniTank atendemos propiedades residenciales, negocios, restaurantes, condominios y proyectos en obra con procesos ordenados, equipo adecuado y atención confiable.
+          </p>
+
+          <div class="hero-points">
+            <div class="point"><i class="fa-solid fa-truck-droplet"></i><span data-i18n="hero.point1">Camión de succión disponible</span></div>
+            <div class="point"><i class="fa-solid fa-soap"></i><span data-i18n="hero.point2">Trabajo higiénico</span></div>
+            <div class="point"><i class="fa-solid fa-clock"></i><span data-i18n="hero.point3">Agenda rápida</span></div>
+          </div>
+
+          <div class="buttons">
+            <a href="#contactus" class="btn btn-primary" data-i18n="hero.quote">Solicitar cotización</a>
+            <a href="#services" class="btn btn-outline" data-i18n="hero.services">Ver servicios</a>
+          </div>
+
+          <div class="mini-info">
+            <span><i class="fa-brands fa-whatsapp"></i><span data-i18n="hero.whatsapp">WhatsApp: +503 0000-0000</span></span>
+            <span><i class="fa-solid fa-location-dot"></i><span data-i18n="hero.location">Servicio a domicilio y en obra</span></span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay">
+          <div class="premium-card">
+            <div class="card-top">
+              <span class="card-icon"><i class="fa-solid fa-water"></i></span>
+              <div>
+                <h3 data-i18n="checklist.title">Proceso SaniTank</h3>
+                <p data-i18n="checklist.subtitle">Evaluación, succión, limpieza y recomendaciones.</p>
+              </div>
+            </div>
+
+            <ul class="checklist">
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="checklist.item1">Diagnóstico del sistema</span></li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="checklist.item2">Preparación segura del área</span></li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="checklist.item3">Limpieza o extracción según necesidad</span></li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="checklist.item4">Revisión de flujo y condición general</span></li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="checklist.item5">Recomendaciones de mantenimiento</span></li>
+            </ul>
+
+            <div class="service-meter">
+              <span data-i18n="hero.meter">Respuesta y logística</span>
+              <div><i></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-content about-grid">
+        <div class="about-image-wrapper reveal">
+          <div class="image-placeholder">
+            <i class="fa-solid fa-truck-droplet"></i>
+            <span data-i18n="about.imageText">Coloca aquí una foto real del camión o equipo SaniTank</span>
+          </div>
+        </div>
+
+        <div class="about-details reveal delay">
+          <h2 class="section-title left" data-i18n="about.title">Nosotros</h2>
+          <p class="text" data-i18n="about.text">
+            SaniTank brinda servicios de saneamiento y mantenimiento séptico con enfoque profesional, limpio y preventivo. Ayudamos a evitar rebalses, malos olores, obstrucciones y fallas en sistemas de tratamiento.
+          </p>
+
+          <div class="stats">
+            <div class="stat"><span class="num">24/7</span><span class="label" data-i18n="about.stat1">Atención según agenda</span></div>
+            <div class="stat"><span class="num">100%</span><span class="label" data-i18n="about.stat2">Enfoque higiénico</span></div>
+            <div class="stat"><span class="num">4+</span><span class="label" data-i18n="about.stat3">Áreas principales</span></div>
+          </div>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <h2 class="section-title" data-i18n="services.title">Servicios principales</h2>
+
+      <div class="section-content">
+        <ul class="services-list">
+          <li class="services-item reveal">
+            <div class="service-icon"><i class="fa-solid fa-truck-droplet"></i></div>
+            <h3 class="name" data-i18n="services.item1.name">Limpieza de fosas sépticas</h3>
+            <p class="text" data-i18n="services.item1.text">Extracción y limpieza para reducir rebalses, malos olores y acumulación de residuos.</p>
+          </li>
+
+          <li class="services-item reveal">
+            <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+            <h3 class="name" data-i18n="services.item2.name">Tanques sépticos</h3>
+            <p class="text" data-i18n="services.item2.text">Mantenimiento preventivo y correctivo para tanques residenciales, comerciales y de obra.</p>
+          </li>
+
+          <li class="services-item reveal">
+            <div class="service-icon"><i class="fa-solid fa-arrow-down-wide-short"></i></div>
+            <h3 class="name" data-i18n="services.item3.name">Pozos de absorción</h3>
+            <p class="text" data-i18n="services.item3.text">Limpieza y apoyo para mejorar el drenaje y funcionamiento del sistema de absorción.</p>
+          </li>
+
+          <li class="services-item reveal">
+            <div class="service-icon"><i class="fa-solid fa-utensils"></i></div>
+            <h3 class="name" data-i18n="services.item4.name">Trampas de grasa</h3>
+            <p class="text" data-i18n="services.item4.text">Servicio ideal para restaurantes, cocinas industriales, hoteles y comercios de alimentos.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="extras-section" id="extras">
+      <div class="section-content extras-grid">
+        <div class="extras-copy reveal">
+          <p class="badge light"><i class="fa-solid fa-plus"></i><span data-i18n="extras.badge">Servicios extras con costo adicional</span></p>
+          <h2 class="section-title left" data-i18n="extras.title">Complementos para una limpieza más completa</h2>
+          <p class="text" data-i18n="extras.text">
+            Estos servicios se cotizan por separado según el estado del sistema, acceso, volumen y equipo requerido.
+          </p>
+        </div>
+
+        <div class="extras-cards">
+          <article class="extra-card reveal">
+            <i class="fa-solid fa-brush"></i>
+            <h3 data-i18n="extras.item1.name">Lavados de paredes</h3>
+            <p data-i18n="extras.item1.text">Limpieza profunda de superficies internas o áreas relacionadas al mantenimiento.</p>
+          </article>
+
+          <article class="extra-card reveal">
+            <i class="fa-solid fa-filter"></i>
+            <h3 data-i18n="extras.item2.name">Cambios de filtro</h3>
+            <p data-i18n="extras.item2.text">Reemplazo de filtros según condición, uso y tipo de sistema instalado.</p>
+          </article>
+
+          <article class="extra-card featured reveal">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3 data-i18n="extras.item3.name">Extracción de sólidos</h3>
+            <p data-i18n="extras.item3.text">Servicio con camión de succión. Requiere evaluación y tiene un costo mayor.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials">
+      <h2 class="section-title" data-i18n="testimonials.title">Clientes satisfechos</h2>
+
+      <div class="section-content">
+        <div class="slider-container swiper">
+          <div class="slider-wrapper">
+            <ul class="testimonials-list swiper-wrapper">
+              <li class="testimonial swiper-slide">
+                <div class="avatar"><i class="fa-solid fa-house"></i></div>
+                <h3 class="name" data-i18n="testimonials.1.name">Residencial Escalón</h3>
+                <p class="stars">★★★★★</p>
+                <i class="feedback" data-i18n="testimonials.1.feedback">Servicio ordenado, puntual y muy limpio. Nos explicaron todo el proceso.</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <div class="avatar"><i class="fa-solid fa-utensils"></i></div>
+                <h3 class="name" data-i18n="testimonials.2.name">Restaurante Central</h3>
+                <p class="stars">★★★★★</p>
+                <i class="feedback" data-i18n="testimonials.2.feedback">La trampa de grasa quedó funcionando mucho mejor. Excelente atención.</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <div class="avatar"><i class="fa-solid fa-building"></i></div>
+                <h3 class="name" data-i18n="testimonials.3.name">Condominio Norte</h3>
+                <p class="stars">★★★★★</p>
+                <i class="feedback" data-i18n="testimonials.3.feedback">Buen equipo, buena comunicación y trabajo profesional.</i>
+              </li>
+
+              <li class="testimonial swiper-slide">
+                <div class="avatar"><i class="fa-solid fa-helmet-safety"></i></div>
+                <h3 class="name" data-i18n="testimonials.4.name">Proyecto en obra</h3>
+                <p class="stars">★★★★★</p>
+                <i class="feedback" data-i18n="testimonials.4.feedback">Nos apoyaron con logística y extracción. Muy recomendados.</i>
+              </li>
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <h2 class="section-title" data-i18n="gallery.title">Trabajos y equipo</h2>
+
+      <div class="section-content">
+        <ul class="gallery-list">
+          <li class="gallery-item"><div class="gallery-card"><i class="fa-solid fa-truck-droplet"></i><span data-i18n="gallery.item1">Camión de succión</span></div></li>
+          <li class="gallery-item"><div class="gallery-card"><i class="fa-solid fa-water"></i><span data-i18n="gallery.item2">Limpieza séptica</span></div></li>
+          <li class="gallery-item"><div class="gallery-card"><i class="fa-solid fa-soap"></i><span data-i18n="gallery.item3">Área higienizada</span></div></li>
+          <li class="gallery-item"><div class="gallery-card"><i class="fa-solid fa-database"></i><span data-i18n="gallery.item4">Tanque séptico</span></div></li>
+          <li class="gallery-item"><div class="gallery-card"><i class="fa-solid fa-utensils"></i><span data-i18n="gallery.item5">Trampa de grasa</span></div></li>
+          <li class="gallery-item"><div class="gallery-card"><i class="fa-solid fa-shield-heart"></i><span data-i18n="gallery.item6">Servicio seguro</span></div></li>
+        </ul>
+        <p class="gallery-note" data-i18n="gallery.note">Tip: reemplaza estos cuadros por fotos reales del equipo, camión y antes/después.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contactus">
+      <h2 class="section-title" data-i18n="contact.title">Contacto</h2>
+
+      <div class="section-content contact-grid">
+        <ul class="contact-info-list reveal">
+          <li class="contact-info"><i class="fa-solid fa-location-dot"></i><p data-i18n="contact.address">San Salvador y alrededores</p></li>
+          <li class="contact-info"><i class="fa-regular fa-envelope"></i><p data-i18n="contact.email">contacto@sanitank.com</p></li>
+          <li class="contact-info"><i class="fa-solid fa-phone"></i><p data-i18n="contact.phone">+503 0000-0000</p></li>
+          <li class="contact-info"><i class="fa-regular fa-clock"></i><p data-i18n="contact.hours">Lun - Sáb : 8:00 AM - 6:00 PM</p></li>
+          <li class="contact-info"><i class="fa-brands fa-whatsapp"></i><p data-i18n="contact.whatsapp">WhatsApp: +503 0000-0000</p></li>
+        </ul>
+
+        <form action="" class="contact-form reveal delay">
+          <input type="text" placeholder="Nombre" class="form-input" required data-i18n-placeholder="contact.namePlaceholder">
+          <input type="email" placeholder="Correo" class="form-input" required data-i18n-placeholder="contact.emailPlaceholder">
+          <input type="tel" placeholder="Teléfono / WhatsApp" class="form-input" data-i18n-placeholder="contact.phonePlaceholder">
+          <textarea placeholder="Cuéntanos si necesitas limpieza de fosa, tanque, pozo, trampa de grasa o extracción de sólidos" class="form-input" required data-i18n-placeholder="contact.messagePlaceholder"></textarea>
+          <button class="submit-button" type="submit" data-i18n="contact.send">Enviar solicitud</button>
+          <p class="form-note" data-i18n="contact.note">La cotización puede variar según acceso, volumen, ubicación y si se requiere camión de succión.</p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="section-content footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span class="logo-mark"><i class="fa-solid fa-droplet"></i></span>
+            <span class="logo-text">SaniTank</span>
+          </a>
+          <p class="footer-description" data-i18n="footer.description">
+            Servicio profesional de limpieza de fosas sépticas, tanques sépticos, pozos de absorción y trampas de grasa.
+          </p>
+
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-block">
+          <h3 class="footer-title" data-i18n="footer.quickLinks">Enlaces rápidos</h3>
+          <ul class="footer-links">
+            <li><a href="#home" data-i18n="nav.home">Inicio</a></li>
+            <li><a href="#about" data-i18n="nav.about">Nosotros</a></li>
+            <li><a href="#services" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="#extras" data-i18n="nav.extras">Extras</a></li>
+            <li><a href="#contactus" data-i18n="nav.contact">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-service-block">
+          <h3 class="footer-title" data-i18n="footer.serviceTitle">Servicios</h3>
+          <ul class="footer-service-list">
+            <li data-i18n="footer.area1">Limpieza de fosas sépticas</li>
+            <li data-i18n="footer.area2">Tanques sépticos</li>
+            <li data-i18n="footer.area3">Pozos de absorción</li>
+            <li data-i18n="footer.area4">Trampas de grasa</li>
+            <li data-i18n="footer.area5">Extracción de sólidos</li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-block">
+          <h3 class="footer-title" data-i18n="footer.contactTitle">Contacto</h3>
+          <ul class="footer-contact-list">
+            <li><i class="fa-solid fa-phone"></i><a href="tel:+50300000000">+503 0000-0000</a></li>
+            <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/50300000000" target="_blank" rel="noopener noreferrer">WhatsApp: +503 0000-0000</a></li>
+            <li><i class="fa-regular fa-envelope"></i><a href="mailto:contacto@sanitank.com">contacto@sanitank.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section-content footer-bottom">
+        <p class="copyright-text" data-i18n="footer.copy">© 2026 SaniTank. Todos los derechos reservados.</p>
+        <p class="footer-legal-text" data-i18n="footer.legal">Cada servicio está sujeto a evaluación previa y disponibilidad de equipo.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
